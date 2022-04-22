@@ -394,14 +394,6 @@
 ;;   (interactive)
 ;;  (find-file "/Users/eiji/qmk_firmware/keyboards/helix/pico/keymaps/eiji01/keymap.c"))
 
-;; Reactの設定
-;; (add-to-list 'auto-mode-alist '("\\.jsx?$" . web-mode));; auto-enable for .js/.jsx files
-;; (setq web-mode-content-types-alist '(("jsx" . "\\.js[x]?\\'")))
-;; (defun web-mode-init-hook ()
-;;   "Hooks for Web mode.  Adjust indent."
-;;   (setq web-mode-markup-indent-offset 2))
-;; (add-hook 'web-mode-hook  'web-mode-init-hook)
-
 ;; 会社windowsでgrep-findを使えるようにする
 (when (equal system-type 'windows-nt)
   (setq find-program "c:/GnuWin/bin/find.exe")
